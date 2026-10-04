@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/atkinson-hyperlegible-latin-400-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/atkinson-hyperlegible-latin-700-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Bricolage Grotesque";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/fonts/bricolage-grotesque-latin-600-normal.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Bricolage Grotesque";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/bricolage-grotesque-latin-700-normal.woff2") format("woff2");
+}
+
+/*
+ * Atkinson Hyperlegible draws zero with a slash, which reads like the letter Ø in Norwegian
+ * ("Ø av 1"). Digits therefore come from Bricolage Grotesque in body text.
+ */
+@font-face {
+  font-family: "Skolequiz Digits";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/bricolage-grotesque-latin-400-normal.woff2") format("woff2");
+  unicode-range: U+0030-0039;
+}
+@font-face {
+  font-family: "Skolequiz Digits";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/bricolage-grotesque-latin-700-normal.woff2") format("woff2");
+  unicode-range: U+0030-0039;
+}
+
+:root {
+  color-scheme: light;
+  --bg: #eef1f5;
+  --surface: #ffffff;
+  --ink: #1c2540;
+  --muted: #5a6480;
+  --line: #d3d9e4;
+  --rim: #2445a3;
+  --on-rim: #ffffff;
+  --ok: #22784a;
+  --okbg: #e3f2e8;
+  --bad: #c23b2a;
+  --badbg: #fbe6e2;
+
+  --font-body: "Skolequiz Digits", "Atkinson Hyperlegible", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-display: "Bricolage Grotesque", var(--font-body);
+
+  --radius-card: 28px;
+  --radius-image: 16px;
+  --radius: 14px;
+  --rim-width: 6px;
+  --space: 1rem;
+  --maxw: 42rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #121829;
+    --surface: #1b2338;
+    --ink: #e8ecf5;
+    --muted: #a3acc4;
+    --line: #2c3652;
+    --rim: #7c98f0;
+    --on-rim: #121829;
+    --ok: #5fc48a;
+    --okbg: #173226;
+    --bad: #f07a6a;
+    --badbg: #3a1e1c;
+  }
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #121829;
+  --surface: #1b2338;
+  --ink: #e8ecf5;
+  --muted: #a3acc4;
+  --line: #2c3652;
+  --rim: #7c98f0;
+  --on-rim: #121829;
+  --ok: #5fc48a;
+  --okbg: #173226;
+  --bad: #f07a6a;
+  --badbg: #3a1e1c;
+}

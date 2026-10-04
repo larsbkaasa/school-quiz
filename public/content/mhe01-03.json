@@ -1,0 +1,1345 @@
+{
+  "schemaVersion": 1,
+  "code": "MHE01-03",
+  "name": "Mat og helse",
+  "language": "nb-NO",
+  "curriculumUrl": "https://www.udir.no/lk20/mhe01-03/kompetansemaal-og-vurdering/kv1055",
+  "aims": [
+    {
+      "id": "mhe-10-1",
+      "short": "Kosthold og helse",
+      "full": "Gjøre rede for sammenhengen mellom kosthold og helse, og bruke kostrådene fra helsemyndighetene når du planlegger og lager måltider"
+    },
+    {
+      "id": "mhe-10-2",
+      "short": "Hygiene og mattrygghet",
+      "full": "Lage mat på en trygg og hygienisk måte, og forklare hvordan god kjøkkenhygiene hindrer matforgiftning"
+    },
+    {
+      "id": "mhe-10-3",
+      "short": "Matkultur og tradisjoner",
+      "full": "Utforske og lage mat fra ulike matkulturer, og drøfte hvordan mat og måltider kan skape fellesskap og identitet"
+    },
+    {
+      "id": "mhe-10-4",
+      "short": "Bærekraft og matsvinn",
+      "full": "Drøfte hvordan matvalg påvirker miljø og bærekraft, og lage mat på måter som reduserer matsvinn"
+    },
+    {
+      "id": "mhe-10-5",
+      "short": "Merking og forbrukermakt",
+      "full": "Kritisk vurdere informasjon om matproduksjon og drøfte hvordan forbrukermakt kan påvirke lokal og global matproduksjon"
+    },
+    {
+      "id": "mhe-10-6",
+      "short": "Teknikker og redskaper",
+      "full": "Bruke grunnleggende teknikker, oppskrifter og redskaper på en trygg måte når du lager mat"
+    }
+  ],
+  "questions": [
+    {
+      "id": "mhe-0001",
+      "aim": "mhe-10-1",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hvor mange porsjoner grønnsaker, frukt og bær anbefaler Helsedirektoratet hver dag?",
+      "options": [
+        "Minst 2",
+        "Minst 5",
+        "Minst 8"
+      ],
+      "answer": 1,
+      "explain": "Kostrådet er «5 om dagen»: minst fem porsjoner grønnsaker, frukt og bær hver dag. Omtrent halvparten bør være grønnsaker.",
+      "source": {
+        "name": "Helsedirektoratet – kostrådene",
+        "url": "https://www.helsedirektoratet.no/faglige-rad/kostradene-og-naeringsstoffer",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0002",
+      "aim": "mhe-10-1",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hvor ofte anbefales det å spise fisk til middag?",
+      "options": [
+        "2–3 ganger i uka",
+        "1 gang i måneden",
+        "Hver dag"
+      ],
+      "answer": 0,
+      "explain": "Helsedirektoratet anbefaler fisk til middag to til tre ganger i uka, og gjerne fisk som pålegg også.",
+      "source": {
+        "name": "Helsedirektoratet – kostrådene",
+        "url": "https://www.helsedirektoratet.no/faglige-rad/kostradene-og-naeringsstoffer",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0003",
+      "aim": "mhe-10-1",
+      "type": "tf",
+      "difficulty": 1,
+      "q": "Vann er den beste tørstedrikken.",
+      "answer": true,
+      "explain": "Vann slukker tørsten uten å gi sukker eller ekstra energi, og det er godt for tennene.",
+      "source": {
+        "name": "Helsedirektoratet – kostrådene",
+        "url": "https://www.helsedirektoratet.no/faglige-rad/kostradene-og-naeringsstoffer",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0004",
+      "aim": "mhe-10-1",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hvilket vitamin lager huden når den får sollys?",
+      "options": [
+        "Vitamin C",
+        "Vitamin D",
+        "Vitamin B12"
+      ],
+      "answer": 1,
+      "explain": "Huden lager vitamin D i sollys. Om vinteren er sola for svak i Norge, så fet fisk og tran er viktige kilder.",
+      "source": {
+        "name": "Helsedirektoratet – kostrådene",
+        "url": "https://www.helsedirektoratet.no/faglige-rad/kostradene-og-naeringsstoffer",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0005",
+      "aim": "mhe-10-1",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Hva gjør det lettere for kroppen å ta opp jern fra maten?",
+      "options": [
+        "Vitamin C, for eksempel fra paprika eller appelsin",
+        "Et glass melk til maten",
+        "Kaffe eller te til maten"
+      ],
+      "answer": 0,
+      "explain": "Vitamin C øker opptaket av jern fra maten. Te, kaffe og mye melk til måltidet kan derimot hemme opptaket.",
+      "source": {
+        "name": "Helsedirektoratet – kostrådene",
+        "url": "https://www.helsedirektoratet.no/faglige-rad/kostradene-og-naeringsstoffer",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0006",
+      "aim": "mhe-10-1",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hva er den viktigste oppgaven til karbohydrater i kroppen?",
+      "options": [
+        "Å gi energi",
+        "Å bygge muskler",
+        "Å frakte oksygen i blodet"
+      ],
+      "answer": 0,
+      "explain": "Karbohydrater er kroppens viktigste energikilde, særlig for hjernen og musklene. Protein er det viktigste byggestoffet.",
+      "source": {
+        "name": "Matvaretabellen",
+        "url": "https://www.matvaretabellen.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0007",
+      "aim": "mhe-10-1",
+      "type": "tf",
+      "difficulty": 2,
+      "q": "Det meste av saltet vi får i oss, kommer fra saltbøssen på bordet.",
+      "answer": false,
+      "explain": "Det meste av saltet kommer fra bearbeidet mat som brød, pålegg, ferdigretter og snacks. Sjekk næringsdeklarasjonen.",
+      "source": {
+        "name": "Helsedirektoratet – kostrådene",
+        "url": "https://www.helsedirektoratet.no/faglige-rad/kostradene-og-naeringsstoffer",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0008",
+      "aim": "mhe-10-1",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hvilken av disse matvarene inneholder mest umettet fett?",
+      "options": [
+        "Smør",
+        "Rapsolje",
+        "Fløte"
+      ],
+      "answer": 1,
+      "explain": "Planteoljer som raps- og olivenolje har mye umettet fett. Kostrådet er å bytte ut mettet fett, som i smør og fløte, med umettet.",
+      "source": {
+        "name": "Helsedirektoratet – kostrådene",
+        "url": "https://www.helsedirektoratet.no/faglige-rad/kostradene-og-naeringsstoffer",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0009",
+      "aim": "mhe-10-1",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hvorfor anbefales grove kornprodukter framfor fine?",
+      "options": [
+        "De har mer fiber, vitaminer og mineraler",
+        "De har mer sukker",
+        "De inneholder ikke energi"
+      ],
+      "answer": 0,
+      "explain": "I grove kornprodukter er mer av hele kornet med. Det gir mer fiber, vitaminer og mineraler, og du holder deg mett lenger.",
+      "source": {
+        "name": "Helsedirektoratet – kostrådene",
+        "url": "https://www.helsedirektoratet.no/faglige-rad/kostradene-og-naeringsstoffer",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0010",
+      "aim": "mhe-10-1",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Hvilke vitaminer er fettløselige?",
+      "options": [
+        "A, D, E og K",
+        "B-vitaminene og C",
+        "Bare vitamin C"
+      ],
+      "answer": 0,
+      "explain": "Vitamin A, D, E og K er fettløselige og kan lagres i kroppen. B-vitaminene og vitamin C er vannløselige.",
+      "source": {
+        "name": "Matvaretabellen",
+        "url": "https://www.matvaretabellen.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0011",
+      "aim": "mhe-10-1",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Hvor mye rødt kjøtt anbefaler Helsedirektoratet høyst per uke?",
+      "options": [
+        "Omtrent 500 gram",
+        "Omtrent 2 kilo",
+        "Det finnes ingen grense"
+      ],
+      "answer": 0,
+      "explain": "Rådet er å begrense rødt og bearbeidet kjøtt til omtrent 500 gram ferdig tilberedt kjøtt i uka.",
+      "source": {
+        "name": "Helsedirektoratet – kostrådene",
+        "url": "https://www.helsedirektoratet.no/faglige-rad/kostradene-og-naeringsstoffer",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0012",
+      "aim": "mhe-10-1",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hvilken matvare er en god kilde til kalsium?",
+      "options": [
+        "Melk og yoghurt",
+        "Agurk",
+        "Hvit ris"
+      ],
+      "answer": 0,
+      "explain": "Melk og meieriprodukter er de viktigste kalsiumkildene i norsk kosthold. Kalsium trengs for sterkt skjelett og sterke tenner.",
+      "source": {
+        "name": "Matvaretabellen",
+        "url": "https://www.matvaretabellen.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0013",
+      "aim": "mhe-10-2",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hva er den høyeste anbefalte temperaturen i kjøleskapet?",
+      "options": [
+        "4 °C",
+        "8 °C",
+        "12 °C"
+      ],
+      "answer": 0,
+      "explain": "Mattilsynet anbefaler 4 °C eller kaldere. Da vokser bakteriene svært sakte, og maten holder seg trygg lenger.",
+      "source": {
+        "name": "Mattilsynet – mat og drikke",
+        "url": "https://www.mattilsynet.no/mat-og-drikke",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0014",
+      "aim": "mhe-10-2",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Termometeret står i et kjøleskap med kjøttdeig og fisk. Hva bør du gjøre?",
+      "image": {
+        "src": "mhe01-03/kjoleskapstermometer.svg",
+        "alt": "Et termometer i et kjøleskap. Den røde væskesøylen står på 9 grader.",
+        "width": 600,
+        "height": 600,
+        "credit": "Skolequiz",
+        "license": "Egen produksjon"
+      },
+      "imageRequired": true,
+      "options": [
+        "Ingenting, temperaturen er fin",
+        "Skru kjøleskapet kaldere",
+        "Skru kjøleskapet varmere"
+      ],
+      "answer": 1,
+      "explain": "Termometeret viser 9 °C. Det er for varmt: Kjøleskapet bør holde 4 °C eller kaldere, ellers vokser bakteriene raskere.",
+      "source": {
+        "name": "Mattilsynet – mat og drikke",
+        "url": "https://www.mattilsynet.no/mat-og-drikke",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0015",
+      "aim": "mhe-10-2",
+      "type": "tf",
+      "difficulty": 1,
+      "q": "Du bør skylle rå kylling i vasken før du steker den.",
+      "answer": false,
+      "explain": "Ikke skyll rå kylling. Vannsprut sprer bakterier som campylobacter rundt vasken. Bakteriene dør uansett når kyllingen stekes gjennom.",
+      "source": {
+        "name": "Mattilsynet – mat og drikke",
+        "url": "https://www.mattilsynet.no/mat-og-drikke",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0016",
+      "aim": "mhe-10-2",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hva er kryssmitte?",
+      "options": [
+        "At bakterier overføres fra for eksempel rått kjøtt til mat som spises uten mer varmebehandling",
+        "At maten blir for salt",
+        "At to retter får samme smak"
+      ],
+      "answer": 0,
+      "explain": "Kryssmitte er når bakterier flyttes fra rå mat, via hender, kniver eller skjærefjøler, til mat som ikke skal varmebehandles, som salat.",
+      "source": {
+        "name": "Mattilsynet – mat og drikke",
+        "url": "https://www.mattilsynet.no/mat-og-drikke",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0017",
+      "aim": "mhe-10-2",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hva er tryggest når du skal tine frossen kylling?",
+      "options": [
+        "Tine den i kjøleskapet",
+        "La den ligge på kjøkkenbenken over natta",
+        "Legge den i varmt vann"
+      ],
+      "answer": 0,
+      "explain": "I kjøleskapet holder kyllingen seg kald mens den tiner, så bakteriene ikke får vokse. Legg den i en bolle så tinevæsken ikke drypper.",
+      "source": {
+        "name": "Mattilsynet – mat og drikke",
+        "url": "https://www.mattilsynet.no/mat-og-drikke",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0018",
+      "aim": "mhe-10-2",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Ved hvilken temperatur vokser de fleste bakterier som gir matforgiftning raskest?",
+      "options": [
+        "0–4 °C",
+        "20–45 °C",
+        "Over 75 °C"
+      ],
+      "answer": 1,
+      "explain": "Mange bakterier trives best rundt romtemperatur og kroppstemperatur. Kulde bremser veksten, og god varmebehandling dreper dem.",
+      "source": {
+        "name": "Mattilsynet – mat og drikke",
+        "url": "https://www.mattilsynet.no/mat-og-drikke",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0019",
+      "aim": "mhe-10-2",
+      "type": "tf",
+      "difficulty": 1,
+      "q": "Hvis brødet har en liten muggflekk, holder det å skjære bort flekken.",
+      "answer": false,
+      "explain": "Muggsoppen kan ha spredt seg usynlig i hele det myke brødet. Mattilsynet anbefaler å kaste brød med mugg.",
+      "source": {
+        "name": "Mattilsynet – mat og drikke",
+        "url": "https://www.mattilsynet.no/mat-og-drikke",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0020",
+      "aim": "mhe-10-2",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hvordan kan du sjekke at en kyllingfilet er gjennomstekt?",
+      "options": [
+        "Kjøttsaften er klar og kjøttet er hvitt helt inn",
+        "Overflaten er brun",
+        "Den har stekt i nøyaktig tre minutter"
+      ],
+      "answer": 0,
+      "explain": "Skjær i den tykkeste delen: Kjøttsaften skal være klar og kjøttet hvitt helt inn. Et steketermometer gir det sikreste svaret.",
+      "source": {
+        "name": "Mattilsynet – mat og drikke",
+        "url": "https://www.mattilsynet.no/mat-og-drikke",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0021",
+      "aim": "mhe-10-2",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hva bør du gjøre med middagsrester du vil spise i morgen?",
+      "options": [
+        "Avkjøle dem raskt og sette dem i kjøleskapet",
+        "La dem stå på komfyren til i morgen",
+        "Sette den varme gryta rett inn i kjøleskapet"
+      ],
+      "answer": 0,
+      "explain": "Fordel restene i mindre bokser så de kjøles raskt, og sett dem i kjøleskapet. Langsom avkjøling gir bakteriene tid til å vokse.",
+      "source": {
+        "name": "Mattilsynet – mat og drikke",
+        "url": "https://www.mattilsynet.no/mat-og-drikke",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0022",
+      "aim": "mhe-10-2",
+      "type": "tf",
+      "difficulty": 1,
+      "q": "Du bør vaske hendene etter at du har tatt på rått kjøtt eller rå fisk.",
+      "answer": true,
+      "explain": "Hendene kan føre bakterier fra rått kjøtt og fisk videre til annen mat. Vask med såpe og varmt vann.",
+      "source": {
+        "name": "Mattilsynet – mat og drikke",
+        "url": "https://www.mattilsynet.no/mat-og-drikke",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0023",
+      "aim": "mhe-10-3",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hva er pinnekjøtt laget av?",
+      "options": [
+        "Saltet og tørket lammeribbe",
+        "Røkt laks",
+        "Svineribbe med svor"
+      ],
+      "answer": 0,
+      "explain": "Pinnekjøtt er saltet og tørket (noen steder også røkt) lammeribbe. Det er en juletradisjon som særlig kommer fra Vestlandet.",
+      "source": {
+        "name": "Store norske leksikon",
+        "url": "https://snl.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0024",
+      "aim": "mhe-10-3",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hvilken rett er kåret til Norges nasjonalrett?",
+      "options": [
+        "Fårikål",
+        "Pizza",
+        "Kjøttkaker"
+      ],
+      "answer": 0,
+      "explain": "Fårikål – lam eller får med kål og hel pepper – ble kåret til nasjonalrett i 1972 og igjen i 2014.",
+      "source": {
+        "name": "Store norske leksikon",
+        "url": "https://snl.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0025",
+      "aim": "mhe-10-3",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Fra hvilket land kommer kimchi?",
+      "options": [
+        "Korea",
+        "Italia",
+        "Mexico"
+      ],
+      "answer": 0,
+      "explain": "Kimchi er fermentert kål med krydder, ofte chili og hvitløk. Den er en viktig del av koreansk matkultur.",
+      "source": {
+        "name": "Store norske leksikon",
+        "url": "https://snl.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0026",
+      "aim": "mhe-10-3",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Injera er et syrlig flatbrød laget av teff. Hvilket land er det særlig kjent fra?",
+      "options": [
+        "Etiopia",
+        "Sverige",
+        "Japan"
+      ],
+      "answer": 0,
+      "explain": "Injera hører til matkulturen i Etiopia og Eritrea. Det brukes både som brød og som «bestikk» til gryteretter.",
+      "source": {
+        "name": "Store norske leksikon",
+        "url": "https://snl.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0027",
+      "aim": "mhe-10-3",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hva betyr det at mat er halal?",
+      "options": [
+        "At den er tillatt å spise etter islamske regler",
+        "At den er laget uten salt",
+        "At den er økologisk"
+      ],
+      "answer": 0,
+      "explain": "Halal betyr «tillatt» på arabisk. Svinekjøtt er for eksempel ikke halal. Kosher er tilsvarende regler i jødedommen.",
+      "source": {
+        "name": "Store norske leksikon",
+        "url": "https://snl.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0028",
+      "aim": "mhe-10-3",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hva spiser ikke en veganer?",
+      "options": [
+        "Mat fra dyr, som kjøtt, fisk, egg og melk",
+        "Grønnsaker",
+        "Bønner og linser"
+      ],
+      "answer": 0,
+      "explain": "En veganer spiser bare plantebasert mat. Mange vegetarianere spiser egg og melkeprodukter, men ikke kjøtt og fisk.",
+      "source": {
+        "name": "Store norske leksikon",
+        "url": "https://snl.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0029",
+      "aim": "mhe-10-3",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hva er lutefisk?",
+      "options": [
+        "Tørrfisk som er lagt i lut og vannet ut igjen",
+        "Fersk laks kokt i saltvann",
+        "Fiskeboller i hvit saus"
+      ],
+      "answer": 0,
+      "explain": "Lutefisk lages av tørrfisk som bløtlegges i vann, legges i lut og vannes ut igjen. Den er en gammel norsk juletradisjon.",
+      "source": {
+        "name": "Store norske leksikon",
+        "url": "https://snl.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0030",
+      "aim": "mhe-10-3",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Paella er en risrett fra hvilket land?",
+      "options": [
+        "Spania",
+        "Thailand",
+        "Norge"
+      ],
+      "answer": 0,
+      "explain": "Paella kommer fra Valencia i Spania. Den lages i en stor, grunn panne med ris, safran og for eksempel sjømat eller kylling.",
+      "source": {
+        "name": "Store norske leksikon",
+        "url": "https://snl.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0031",
+      "aim": "mhe-10-3",
+      "type": "tf",
+      "difficulty": 1,
+      "q": "Mange retter som er vanlige i Norge i dag, har kommet hit fra andre land.",
+      "answer": true,
+      "explain": "Matkultur endrer seg hele tiden. Taco, pizza og pasta er eksempler på mat fra andre land som har blitt vanlig hverdagsmat i Norge.",
+      "source": {
+        "name": "Store norske leksikon",
+        "url": "https://snl.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0032",
+      "aim": "mhe-10-3",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Rakfisk er en norsk tradisjonsrett. Hvordan lages den?",
+      "options": [
+        "Fisken saltes og fermenteres i flere måneder",
+        "Fisken grilles over bål",
+        "Fisken fritteres i olje"
+      ],
+      "answer": 0,
+      "explain": "Rakfisk er saltet ørret eller røye som får fermentere (gjære) i flere måneder. Den er særlig kjent fra Valdres.",
+      "source": {
+        "name": "Store norske leksikon",
+        "url": "https://snl.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0033",
+      "aim": "mhe-10-4",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hva er matsvinn?",
+      "options": [
+        "Mat som kunne vært spist, men som blir kastet",
+        "Skall og bein som ikke kan spises",
+        "Mat som selges billig"
+      ],
+      "answer": 0,
+      "explain": "Matsvinn er spiselig mat som kastes eller går tapt. Skall, bein og annet som ikke kan spises, regnes ikke som matsvinn.",
+      "source": {
+        "name": "Matvett",
+        "url": "https://www.matvett.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0034",
+      "aim": "mhe-10-4",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Hvor i verdikjeden kastes mest mat i Norge?",
+      "options": [
+        "Hjemme hos forbrukerne",
+        "I butikkene",
+        "Hos bøndene"
+      ],
+      "answer": 0,
+      "explain": "Omtrent halvparten av matsvinnet i Norge skjer hjemme hos forbrukerne. Derfor betyr det mye hva hver og en av oss gjør.",
+      "source": {
+        "name": "Matvett",
+        "url": "https://www.matvett.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0035",
+      "aim": "mhe-10-4",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Hvilken av disse matvarene gir vanligvis lavest klimagassutslipp per kilo?",
+      "options": [
+        "Tørkede linser",
+        "Storfekjøtt",
+        "Ost"
+      ],
+      "answer": 0,
+      "explain": "Belgfrukter som linser og bønner gir lite utslipp og mye protein. Storfekjøtt og ost gir høye utslipp, blant annet fordi kyr slipper ut metan.",
+      "source": {
+        "name": "Helsedirektoratet – kostrådene",
+        "url": "https://www.helsedirektoratet.no/faglige-rad/kostradene-og-naeringsstoffer",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0036",
+      "aim": "mhe-10-4",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Når er det sesong for norske jordbær?",
+      "options": [
+        "Om sommeren",
+        "Om vinteren",
+        "Hele året"
+      ],
+      "answer": 0,
+      "explain": "Norske jordbær høstes om sommeren. Frukt og grønt i sesong er ofte billigere, ferskere og mer kortreist.",
+      "source": {
+        "name": "Matvett",
+        "url": "https://www.matvett.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0037",
+      "aim": "mhe-10-4",
+      "type": "tf",
+      "difficulty": 1,
+      "q": "Brød kan fryses for å unngå at det blir kastet.",
+      "answer": true,
+      "explain": "Brød tåler godt å fryses. Skjær det gjerne i skiver først, så kan du ta ut akkurat det du trenger.",
+      "source": {
+        "name": "Matvett",
+        "url": "https://www.matvett.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0038",
+      "aim": "mhe-10-4",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hvilket tiltak hjelper mest mot matsvinn hjemme?",
+      "options": [
+        "Planlegge måltider og handle etter handleliste",
+        "Kjøpe storpakker for sikkerhets skyld",
+        "Kaste maten når best før-datoen er passert"
+      ],
+      "answer": 0,
+      "explain": "Med plan og handleliste kjøper du det du trenger. Storpakker og kasting på best før-datoen gir ofte mer svinn.",
+      "source": {
+        "name": "Matvett",
+        "url": "https://www.matvett.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0039",
+      "aim": "mhe-10-4",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hva menes med kortreist mat?",
+      "options": [
+        "Mat som er produsert i nærheten av der den spises",
+        "Mat som er rask å lage",
+        "Mat som er lett å bære"
+      ],
+      "answer": 0,
+      "explain": "Kortreist mat er produsert nær der den selges og spises. Transport er likevel ofte en mindre del av klimautslippet enn selve produksjonen.",
+      "source": {
+        "name": "Store norske leksikon",
+        "url": "https://snl.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0040",
+      "aim": "mhe-10-4",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hvilken av disse matvarene er en belgfrukt?",
+      "options": [
+        "Kikerter",
+        "Potet",
+        "Gulrot"
+      ],
+      "answer": 0,
+      "explain": "Belgfrukter er frø fra planter med belger, som bønner, erter, linser og kikerter. De er rike på protein og fiber.",
+      "source": {
+        "name": "Matvaretabellen",
+        "url": "https://www.matvaretabellen.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0041",
+      "aim": "mhe-10-4",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hva er en god måte å bruke opp rester av kokt ris og grønnsaker?",
+      "options": [
+        "Lage stekt ris eller suppe",
+        "Kaste dem etter middagen",
+        "La dem stå på benken til neste dag"
+      ],
+      "answer": 0,
+      "explain": "Rester kan bli nye retter, som stekt ris, suppe eller omelett. Kjøl restene raskt ned og spis dem innen et par dager.",
+      "source": {
+        "name": "Matvett",
+        "url": "https://www.matvett.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0042",
+      "aim": "mhe-10-4",
+      "type": "tf",
+      "difficulty": 1,
+      "q": "Frukt og grønnsaker med små skjønnhetsfeil har dårligere næringsinnhold.",
+      "answer": false,
+      "explain": "«Stygg» frukt og grønt er like næringsrik som pen. Å velge den er en enkel måte å redusere matsvinn på.",
+      "source": {
+        "name": "Matvett",
+        "url": "https://www.matvett.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0043",
+      "aim": "mhe-10-5",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hva betyr «best før» på en matvare?",
+      "options": [
+        "Varen er ofte god etter datoen også – se, lukt og smak",
+        "Varen må kastes etter datoen",
+        "Varen ble laget på denne datoen"
+      ],
+      "answer": 0,
+      "explain": "Best før er en kvalitetsgaranti. Etter datoen er varen ofte helt fin. Bruk sansene: se, lukt og smak før du bestemmer deg.",
+      "source": {
+        "name": "Mattilsynet – merking av mat",
+        "url": "https://www.mattilsynet.no/mat-og-drikke/merking-av-mat",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0044",
+      "aim": "mhe-10-5",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hva betyr «siste forbruksdag»?",
+      "options": [
+        "Varen bør ikke spises etter datoen",
+        "Varen kan spises lenge etter datoen",
+        "Butikken må selge varen før datoen"
+      ],
+      "answer": 0,
+      "explain": "Siste forbruksdag brukes på lett bedervelige varer som kjøttdeig og fersk fisk. Etter datoen kan varen være helsefarlig, selv om den lukter fint.",
+      "source": {
+        "name": "Mattilsynet – merking av mat",
+        "url": "https://www.mattilsynet.no/mat-og-drikke/merking-av-mat",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0045",
+      "aim": "mhe-10-5",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Det er 4. oktober. Kan du lage middag av denne kjøttdeigen?",
+      "image": {
+        "src": "mhe01-03/kjottdeig-etikett.svg",
+        "alt": "Etikett på en pakke kjøttdeig. Det står «Siste forbruksdag 02.10».",
+        "width": 800,
+        "height": 500,
+        "credit": "Skolequiz",
+        "license": "Egen produksjon"
+      },
+      "imageRequired": true,
+      "options": [
+        "Nei, den bør ikke spises nå",
+        "Ja, hvis den lukter og ser fin ut",
+        "Ja, hvis du steker den ekstra lenge"
+      ],
+      "answer": 0,
+      "explain": "Siste forbruksdag var 2. oktober. Etter datoen kan kjøttdeigen inneholde sykdomsfremkallende bakterier selv om den lukter fint. Den bør kastes.",
+      "source": {
+        "name": "Mattilsynet – merking av mat",
+        "url": "https://www.mattilsynet.no/mat-og-drikke/merking-av-mat",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0046",
+      "aim": "mhe-10-5",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Det er 4. oktober, og du finner denne pakken spaghetti i skapet. Hva gjør du?",
+      "image": {
+        "src": "mhe01-03/pasta-etikett.svg",
+        "alt": "Etikett på en pakke tørr spaghetti. Det står «Best før 01.10».",
+        "width": 800,
+        "height": 500,
+        "credit": "Skolequiz",
+        "license": "Egen produksjon"
+      },
+      "imageRequired": true,
+      "options": [
+        "Kaster den med en gang",
+        "Sjekker den – den er som regel helt fin",
+        "Legger den i fryseren"
+      ],
+      "answer": 1,
+      "explain": "Best før er en kvalitetsgaranti, ikke en sikkerhetsgrense. Tørr pasta holder seg lenge. Ser, lukter og smaker den normalt, kan du bruke den.",
+      "source": {
+        "name": "Mattilsynet – merking av mat",
+        "url": "https://www.mattilsynet.no/mat-og-drikke/merking-av-mat",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0047",
+      "aim": "mhe-10-5",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Hva er det mest av i denne kjeksen?",
+      "image": {
+        "src": "mhe01-03/ingrediensliste-kjeks.svg",
+        "alt": "Ingrediensliste for kakaokjeks: sukker, hvetemel, vegetabilsk fett, kakao 6 %, glukosesirup, salt, natron, aroma.",
+        "width": 600,
+        "height": 500,
+        "credit": "Skolequiz",
+        "license": "Egen produksjon"
+      },
+      "imageRequired": true,
+      "options": [
+        "Sukker",
+        "Hvetemel",
+        "Kakao"
+      ],
+      "answer": 0,
+      "explain": "Ingrediensene står i synkende rekkefølge etter vekt. Det som står først, er det mest av – her sukker.",
+      "source": {
+        "name": "Mattilsynet – merking av mat",
+        "url": "https://www.mattilsynet.no/mat-og-drikke/merking-av-mat",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0048",
+      "aim": "mhe-10-5",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hvordan er allergener merket i ingredienslisten?",
+      "options": [
+        "De er uthevet, for eksempel med fet skrift",
+        "De står alltid sist i lista",
+        "De er ikke merket"
+      ],
+      "answer": 0,
+      "explain": "De 14 vanligste allergenene, som melk, egg, gluten og nøtter, skal utheves i ingredienslisten, for eksempel med fet skrift eller store bokstaver.",
+      "source": {
+        "name": "Mattilsynet – merking av mat",
+        "url": "https://www.mattilsynet.no/mat-og-drikke/merking-av-mat",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0049",
+      "aim": "mhe-10-5",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Hvor mye sukker får du i deg hvis du spiser 50 gram av denne frokostblandingen?",
+      "image": {
+        "src": "mhe01-03/naeringsdeklarasjon.svg",
+        "alt": "Næringsdeklarasjon for en frokostblanding per 100 g. Blant annet: karbohydrat 64 g, hvorav sukkerarter 24 g.",
+        "width": 600,
+        "height": 660,
+        "credit": "Skolequiz",
+        "license": "Egen produksjon"
+      },
+      "imageRequired": true,
+      "options": [
+        "12 g",
+        "24 g",
+        "48 g"
+      ],
+      "answer": 0,
+      "explain": "Næringsdeklarasjonen viser innhold per 100 gram. 50 gram er halvparten, så du får i deg 24 g ÷ 2 = 12 g sukker.",
+      "source": {
+        "name": "Mattilsynet – merking av mat",
+        "url": "https://www.mattilsynet.no/mat-og-drikke/merking-av-mat",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0050",
+      "aim": "mhe-10-5",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hva betyr Nøkkelhullet på en matvare?",
+      "options": [
+        "Varen er et sunnere valg innen sin varegruppe",
+        "Varen er økologisk",
+        "Varen er laget i Norge"
+      ],
+      "answer": 0,
+      "explain": "Nøkkelhull-merkede varer har mindre sukker, salt eller mettet fett, og/eller mer fiber, enn lignende varer.",
+      "source": {
+        "name": "Helsedirektoratet – kostrådene",
+        "url": "https://www.helsedirektoratet.no/faglige-rad/kostradene-og-naeringsstoffer",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0051",
+      "aim": "mhe-10-5",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hva forteller Ø-merket deg?",
+      "options": [
+        "Varen er produsert økologisk",
+        "Varen er glutenfri",
+        "Varen er sukkerfri"
+      ],
+      "answer": 0,
+      "explain": "Ø-merket viser at varen er produsert etter regler for økologisk produksjon, blant annet uten kunstgjødsel og kjemiske sprøytemidler.",
+      "source": {
+        "name": "Mattilsynet – merking av mat",
+        "url": "https://www.mattilsynet.no/mat-og-drikke/merking-av-mat",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0052",
+      "aim": "mhe-10-5",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hva betyr Nyt Norge-merket?",
+      "options": [
+        "Varen er produsert i Norge med norske råvarer",
+        "Varen er sukkerfri",
+        "Varen er økologisk"
+      ],
+      "answer": 0,
+      "explain": "Nyt Norge-merket viser at varen er laget i Norge, og at råvarene er norske. Merket gjør det lettere å velge norskprodusert mat.",
+      "source": {
+        "name": "Mattilsynet – merking av mat",
+        "url": "https://www.mattilsynet.no/mat-og-drikke/merking-av-mat",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0053",
+      "aim": "mhe-10-5",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hva menes med forbrukermakt?",
+      "options": [
+        "At forbrukerne påvirker hva som produseres, gjennom det de kjøper",
+        "At butikkene bestemmer prisene",
+        "At staten bestemmer hva vi spiser"
+      ],
+      "answer": 0,
+      "explain": "Når mange velger eller velger bort en vare, merker butikker og produsenter det. Slik kan forbrukere påvirke både utvalg og produksjon.",
+      "source": {
+        "name": "Udir – læreplan i mat og helse (MHE01-03)",
+        "url": "https://www.udir.no/lk20/mhe01-03",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0054",
+      "aim": "mhe-10-5",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hva viser Fairtrade-merket?",
+      "options": [
+        "At bønder og arbeidere har fått bedre betalt og bedre arbeidsforhold",
+        "At varen har lite sukker",
+        "At varen er laget i Norge"
+      ],
+      "answer": 0,
+      "explain": "Fairtrade skal sikre bønder og arbeidere i lavinntektsland en minstepris og bedre arbeidsforhold, for eksempel for kaffe, kakao og bananer.",
+      "source": {
+        "name": "Fairtrade Norge",
+        "url": "https://www.fairtrade.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0055",
+      "aim": "mhe-10-5",
+      "type": "tf",
+      "difficulty": 1,
+      "q": "Reklame for mat og drikke gir alltid et balansert bilde av produktet.",
+      "answer": false,
+      "explain": "Reklame skal få deg til å kjøpe. Vær kritisk: Sjekk ingrediensliste og næringsinnhold i stedet for å stole på bilder og slagord.",
+      "source": {
+        "name": "Udir – læreplan i mat og helse (MHE01-03)",
+        "url": "https://www.udir.no/lk20/mhe01-03",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0056",
+      "aim": "mhe-10-6",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hvordan holder du hånden når du bruker klogrep?",
+      "options": [
+        "Fingertuppene bøyd inn, så knokene styrer kniven",
+        "Fingrene strake og spredt ut",
+        "Tommelen under kniveggen"
+      ],
+      "answer": 0,
+      "explain": "I klogrep bøyer du fingertuppene inn under knokene. Kniven glir langs knokene, og fingertuppene holdes trygt unna eggen.",
+      "source": {
+        "name": "Udir – læreplan i mat og helse (MHE01-03)",
+        "url": "https://www.udir.no/lk20/mhe01-03",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0057",
+      "aim": "mhe-10-6",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Fettet i stekepannen har tatt fyr. Hva gjør du?",
+      "options": [
+        "Slår av platen og kveler flammene med lokk eller brannteppe",
+        "Heller vann på",
+        "Bærer pannen ut"
+      ],
+      "answer": 0,
+      "explain": "Vann på brennende fett gir en eksplosjonsaktig brann. Slå av varmen og kvel flammene med lokk eller brannteppe. Ring 110 hvis brannen sprer seg.",
+      "source": {
+        "name": "DSB – brannsikkerhet på kjøkkenet",
+        "url": "https://www.dsb.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0058",
+      "aim": "mhe-10-6",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hvor mange milliliter er én spiseskje (ss)?",
+      "options": [
+        "5 ml",
+        "15 ml",
+        "100 ml"
+      ],
+      "answer": 1,
+      "explain": "1 ss = 15 ml, 1 ts = 5 ml og 1 dl = 100 ml. Bruk målebeger og måleskjeer for å få oppskriften riktig.",
+      "source": {
+        "name": "Matvaretabellen",
+        "url": "https://www.matvaretabellen.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0059",
+      "aim": "mhe-10-6",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Oppskriften trenger 300 ml melk. Er det nok melk i målebegeret?",
+      "image": {
+        "src": "mhe01-03/malebeger.svg",
+        "alt": "Et målebeger med skala i desiliter. Melken står ved 2 dl-streken.",
+        "width": 600,
+        "height": 700,
+        "credit": "Skolequiz",
+        "license": "Egen produksjon"
+      },
+      "imageRequired": true,
+      "options": [
+        "Ja, det er akkurat nok",
+        "Nei, du trenger 1 dl til",
+        "Nei, du trenger 3 dl til"
+      ],
+      "answer": 1,
+      "explain": "300 ml er 3 dl. Melken står ved 2 dl, så du trenger 1 dl til. Les av målebegeret i øyehøyde.",
+      "source": {
+        "name": "Matvaretabellen",
+        "url": "https://www.matvaretabellen.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0060",
+      "aim": "mhe-10-6",
+      "type": "single",
+      "difficulty": 1,
+      "q": "Hvorfor skal ikke væsken til en gjærdeig være for varm?",
+      "options": [
+        "Gjæren dør, og deigen hever seg ikke",
+        "Deigen blir for salt",
+        "Melet smelter"
+      ],
+      "answer": 0,
+      "explain": "Gjær er levende sopp som trives i fingervarm væske. Blir væsken mye varmere, dør gjæren, og deigen hever seg ikke.",
+      "source": {
+        "name": "Matvaretabellen",
+        "url": "https://www.matvaretabellen.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0061",
+      "aim": "mhe-10-6",
+      "type": "single",
+      "difficulty": 3,
+      "q": "Hva trenger natron for å virke som hevemiddel?",
+      "options": [
+        "Noe syrlig, for eksempel kulturmelk eller yoghurt",
+        "Gjær",
+        "Is"
+      ],
+      "answer": 0,
+      "explain": "Natron reagerer med syre og danner karbondioksid, som får bakverket til å heve. Bakepulver inneholder både natron og syre.",
+      "source": {
+        "name": "Matvaretabellen",
+        "url": "https://www.matvaretabellen.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0062",
+      "aim": "mhe-10-6",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Du skal jevne en saus med maisennamel. Hvordan unngår du klumper?",
+      "options": [
+        "Rører ut melet i litt kald væske før du heller det i",
+        "Strør melet rett i den kokende sausen",
+        "Bruker mer smør"
+      ],
+      "answer": 0,
+      "explain": "Rør maisennamelet ut i litt kald væske først, og hell det i sausen mens du rører. Strør du melet rett i varm væske, klumper det seg.",
+      "source": {
+        "name": "Matvaretabellen",
+        "url": "https://www.matvaretabellen.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0063",
+      "aim": "mhe-10-6",
+      "type": "tf",
+      "difficulty": 1,
+      "q": "En skarp kniv er tryggere å bruke enn en sløv kniv.",
+      "answer": true,
+      "explain": "En sløv kniv krever mer kraft og sklir lettere av maten. Med en skarp kniv har du bedre kontroll.",
+      "source": {
+        "name": "Udir – læreplan i mat og helse (MHE01-03)",
+        "url": "https://www.udir.no/lk20/mhe01-03",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0064",
+      "aim": "mhe-10-6",
+      "type": "single",
+      "difficulty": 2,
+      "q": "Hva betyr det at noe skal «trekke»?",
+      "options": [
+        "Holdes like under kokepunktet, uten at det bobler kraftig",
+        "Kokes kraftig uten lokk",
+        "Stekes på høy varme"
+      ],
+      "answer": 0,
+      "explain": "Å trekke betyr å varmebehandle i væske like under kokepunktet. Det brukes for eksempel til fisk og egg, som da ikke faller fra hverandre.",
+      "source": {
+        "name": "Matvaretabellen",
+        "url": "https://www.matvaretabellen.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    },
+    {
+      "id": "mhe-0065",
+      "aim": "mhe-10-6",
+      "type": "single",
+      "difficulty": 3,
+      "q": "Du bruker varmluft i stedet for over- og undervarme. Hva gjør du med temperaturen?",
+      "options": [
+        "Senker den litt, ofte omtrent 20 grader",
+        "Øker den med 50 grader",
+        "Lar den være som i oppskriften"
+      ],
+      "answer": 0,
+      "explain": "Varmluft fordeler varmen mer effektivt. Derfor senker du vanligvis temperaturen litt, ofte rundt 20 grader.",
+      "source": {
+        "name": "Matvaretabellen",
+        "url": "https://www.matvaretabellen.no/",
+        "checked": "2026-10-04"
+      },
+      "status": "approved"
+    }
+  ]
+}
