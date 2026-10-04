@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="700" viewBox="0 0 600 700" font-family="Arial, Helvetica, sans-serif">
+  <rect width="600" height="700" fill="#eef1f5"/>
+  <path d="M150 110 H450 L430 640 H170 Z" fill="#ffffff" stroke="#5a6480" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M450 170 C540 180 540 380 438 400" fill="none" stroke="#5a6480" stroke-width="14" stroke-linecap="round"/>
+  <path d="M159.6 400 H440.4 L430 640 H170 Z" fill="#f7f3e6"/>
+  <line x1="159.6" y1="400" x2="440.4" y2="400" stroke="#c9bfa0" stroke-width="3"/>
+  <g stroke="#1c2540" stroke-width="3">
+    <line x1="165" y1="580" x2="225" y2="580"/><line x1="165" y1="550" x2="200" y2="550"/>
+    <line x1="163" y1="520" x2="225" y2="520"/><line x1="163" y1="490" x2="198" y2="490"/>
+    <line x1="161" y1="460" x2="225" y2="460"/><line x1="161" y1="430" x2="196" y2="430"/>
+    <line x1="160" y1="400" x2="225" y2="400"/><line x1="159" y1="370" x2="194" y2="370"/>
+    <line x1="158" y1="340" x2="225" y2="340"/><line x1="157" y1="310" x2="192" y2="310"/>
+    <line x1="156" y1="280" x2="225" y2="280"/><line x1="155" y1="250" x2="190" y2="250"/>
+    <line x1="154" y1="220" x2="225" y2="220"/><line x1="154" y1="190" x2="188" y2="190"/>
+    <line x1="153" y1="160" x2="225" y2="160"/>
+  </g>
+  <g fill="#1c2540" font-size="26" font-weight="700">
+    <text x="235" y="589">½ dl</text><text x="235" y="529">1 dl</text>
+    <text x="235" y="469">1½ dl</text><text x="235" y="409">2 dl</text>
+    <text x="235" y="349">2½ dl</text><text x="235" y="289">3 dl</text>
+    <text x="235" y="229">3½ dl</text><text x="235" y="169">4 dl</text>
+  </g>
+</svg>

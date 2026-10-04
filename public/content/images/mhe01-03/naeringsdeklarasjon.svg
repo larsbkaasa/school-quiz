@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="660" viewBox="0 0 600 660" font-family="Arial, Helvetica, sans-serif">
+  <rect width="600" height="660" fill="#dfe8d3"/>
+  <rect x="30" y="30" width="540" height="600" rx="16" fill="#ffffff" stroke="#1c2540" stroke-width="4"/>
+  <text x="60" y="92" fill="#1c2540" font-size="32" font-weight="700">Næringsinnhold</text>
+  <text x="540" y="92" fill="#1c2540" font-size="28" font-weight="700" text-anchor="end">per 100 g</text>
+  <line x1="50" y1="115" x2="550" y2="115" stroke="#1c2540" stroke-width="4"/>
+  <g fill="#1c2540" font-size="30">
+    <text x="60" y="165">Energi</text><text x="540" y="165" text-anchor="end">1680 kJ / 400 kcal</text>
+    <text x="60" y="225">Fett</text><text x="540" y="225" text-anchor="end">12 g</text>
+    <text x="85" y="280" font-size="26">hvorav mettede</text><text x="540" y="280" text-anchor="end">6 g</text>
+    <text x="60" y="345">Karbohydrat</text><text x="540" y="345" text-anchor="end">64 g</text>
+    <text x="85" y="400" font-size="26">hvorav sukkerarter</text><text x="540" y="400" text-anchor="end">24 g</text>
+    <text x="60" y="465">Kostfiber</text><text x="540" y="465" text-anchor="end">4 g</text>
+    <text x="60" y="525">Protein</text><text x="540" y="525" text-anchor="end">7 g</text>
+    <text x="60" y="585">Salt</text><text x="540" y="585" text-anchor="end">0,8 g</text>
+  </g>
+  <g stroke="#d3d9e4" stroke-width="2">
+    <line x1="50" y1="190" x2="550" y2="190"/><line x1="50" y1="305" x2="550" y2="305"/>
+    <line x1="50" y1="425" x2="550" y2="425"/><line x1="50" y1="490" x2="550" y2="490"/>
+    <line x1="50" y1="550" x2="550" y2="550"/>
+  </g>
+</svg>
