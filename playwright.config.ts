@@ -23,6 +23,8 @@ export default defineConfig({
     // Run `pnpm build` first; E2E tests the production build. CI builds a root-path copy into E2E_DIST.
     command: `pnpm preview --port ${PORT} --strictPort${process.env.E2E_DIST ? ` --outDir ${process.env.E2E_DIST}` : ""}`,
     port: PORT,
+    // The tests open "/", so the preview server must not inherit a subpath base.
+    env: { BASE_PATH: "/" },
     reuseExistingServer: !process.env.CI,
   },
 });
